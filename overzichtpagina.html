@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <!--320-->
+    <title>NS Travelling Stories</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!--    <link rel="icon" href="images/website-icon.png" /> -->
+    <link href="fonts/css/fonts.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+    <header>
+
+        <h1>NS</h1>
+        <h2>Travelling Stories</h2>
+        <img class="nslogo" src="images/nslogo.png" alt="NS logo">
+        <form id="search-form" name="search" action="/products" method="get">
+            <input id="search-input" name="search" type="text">
+            <input src="images/" name="submit" type="image" alt="Zoekbar">
+        </form>
+        <a href="favorites/favorites.html"><img class="favorites" src="images/favorites.png" alt="Favorieten knop"></a>
+        <a href="login/login.html"><img class="mijnns" src="images/mijnns.png" alt="Mijn NS knop"></a>
+
+    </header>
+
+    <main>
+
+        <section class="topbanner">
+            <img class="banner" src="images/banner.png" alt="Banner">
+            <img class="overlay" src="images/vandaag.png" alt="Vandaag verhaal">
+            <h1 class="overlay">Vandaag</h1>
+            <h2 class="overlay">Meest bekeken!</h2>
+        </section>
+
+        <section class="mid">
+            <h2>Gefilterd op</h2>
+            <h1>Explore</h1>
+        </section>
+
+        <section class="sorteren">
+            <form>
+                <fieldset>
+                    <legend>Sorteren:</legend>
+                    <select name="sort">
+                        <option>Random</option>
+                        <option>A-Z</option>
+                        <option>Nieuw-Oud</option>
+                        <option>Meest bekeken</option>
+                        <option>Meeste likes</option>
+                        <option>Meeste favorieten</option>
+                        <option>Veel woorden</option>
+                        <option>Kleur</option>
+                    </select </form>
+                </fieldset>
+        </section>
+
+        <section class="filter">
+            <form>
+                <fieldset>
+                    <legend>Genre</legend>
+                    <input type="checkbox">
+                    <label>Avontuur</label>
+                    <input type="checkbox">
+                    <label>Humor</label>
+                    <input type="checkbox">
+                    <label>Horror</label>
+                    <input type="checkbox">
+                    <label>Drama</label>
+                    <input type="checkbox">
+                    <label>Thriller</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Likes</legend>
+                    <input type="range">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Leeftijdscatogorie</legend>
+                    <input type="checkbox">
+                    <label>Kinderen</label>
+                    <input type="checkbox">
+                    <label>Pubers</label>
+                    <input type="checkbox">
+                    <label>Jong Volwassen</label>
+                    <input type="checkbox">
+                    <label>Ouders</label>
+                    <input type="checkbox">
+                    <label>65+</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Aantal Woorden</legend>
+                    <label>Tussen de </label>
+                    <input type="number">
+                    <label>en</label>
+                    <input type="number">
+                    <label>woorden</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Kleuren</legend>
+                    <input type="color">
+                    <label>Groen</label>
+                    <input type="color">
+                    <label>Blauw</label>
+                    <input type="color">
+                    <label>Geel</label>
+                    <input type="color">
+                    <label>Rood</label>
+                    <input type="color">
+                    <label>Paars</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tags</legend>
+                    <input type="search">
+                    <input type="submit">
+                    <input type="">
+                </fieldset>
+            </form>
+
+        </section>
+
+        <section class="verhalen">
+
+            <img class="verhaal" src="images/verhaal1" alt="Verhaal 1">
+            <h2>Titel 1</h2>
+            <img class="addtofav" src="images/favorites.png" alt="Favorite">
+            <img class="leeg" src="images/like.png" alt="Like knop">
+
+            <img class="verhaal" src="images/verhaal2" alt="Verhaal 2">
+            <h2>Titel 2</h2>
+            <img class="addtofav" src="images/favorites.png" alt="Favorite">
+            <img class="leeg" src="images/like.png" alt="Like knop">
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>
+
+
+<!--     Header
+             Form
+             Main content
+             Footer
+    -->
