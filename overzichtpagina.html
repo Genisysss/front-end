@@ -16,30 +16,34 @@
 
     <header>
 
-        <h1>NS</h1>
-        <h2>Travelling Stories</h2>
-        <img class="nslogo" src="images/nslogo.png" alt="NS logo">
+        <!-- <h1>NS</h1>
+        <h2>Travelling Stories</h2> -->
+        
+        <a href="#"><img class="nslogo" src="images/nslogo.png" alt="NS logo"></a>
+        
         <form id="search-form" name="search" action="/products" method="get">
             <input id="search-input" name="search" type="text">
             <input src="images/" name="submit" type="image" alt="Zoekbar">
         </form>
+        <button><img src="images/search.png" alt="Zoek knop"></button>
         <a href="favorites/favorites.html"><img class="favorites" src="images/favorites.png" alt="Favorieten knop"></a>
+        <h2>Favorieten</h2>
         <a href="login/login.html"><img class="mijnns" src="images/mijnns.png" alt="Mijn NS knop"></a>
+        <h2>Mijn NS</h2>
 
     </header>
 
     <main>
 
         <section class="topbanner">
-            <img class="banner" src="images/banner.png" alt="Banner">
-            <img class="overlay" src="images/vandaag.png" alt="Vandaag verhaal">
-            <h1 class="overlay">Vandaag</h1>
-            <h2 class="overlay">Meest bekeken!</h2>
+            <img class="banner" src="images/Banner.jpg" alt="Banner">
+            <img class="bannerdesktop" src="images/Bannerdesktop.jpg" alt="Banner">
+            <h1 class="overlay">NS Reisverhalen</h1>
         </section>
 
         <section class="mid">
-            <h2>Gefilterd op</h2>
-            <h1>Explore</h1>
+            <h2>Filters</h2>
+            <h2>Sorteren</h2>
         </section>
 
         <section class="sorteren">
@@ -55,12 +59,13 @@
                         <option>Meeste favorieten</option>
                         <option>Veel woorden</option>
                         <option>Kleur</option>
-                    </select </form>
+                    </select>
                 </fieldset>
+            </form>
         </section>
 
         <section class="filter">
-            <form>
+               <form>
                 <fieldset>
                     <legend>Genre</legend>
                     <input type="checkbox">
@@ -122,23 +127,80 @@
                     <legend>Tags</legend>
                     <input type="search">
                     <input type="submit">
-                    <input type="">
                 </fieldset>
             </form>
+            
+            <button>Filter</button>
 
         </section>
 
         <section class="verhalen">
+            <img id="deur" src="images/Deur-01-01.png" alt="Deur">
+            <h1>Horror</h1>
+            <ul>
+                <li>
+                <a href="login/login.html"><img class="verhaal" src="images/PR.jpg" alt="Verhaal 1"></a>
+                <!-- <h3>Titel 1</h3> -->
+                </li>
+            
+                <li><a href="login/login.html"><img class="verhaal" src="images/PR.jpg" alt="Verhaal 1"></a>
+                </li>
 
-            <img class="verhaal" src="images/verhaal1" alt="Verhaal 1">
+                <li><a href="login/login.html"><img class="verhaal" src="images/PR.jpg" alt="Verhaal 1"></a>
+                </li>
+                
+                <li><a href="login/login.html"><img class="verhaal" src="images/PR.jpg" alt="Verhaal 1"></a></li>
+                <!-- <h3>Titel 1</h3> -->
+            
+            
+                <li><a href="login/login.html"><img class="verhaal" src="images/PR.jpg" alt="Verhaal 1"></a>
+                </li>
+
+                <li><a href="login/login.html"><img class="verhaal" src="images/PR.jpg" alt="Verhaal 1"></a>
+                </li>
+            </ul>
+            
+                      <h1>Aanbevolen</h1>
+                      
+            <ul>
+               
+                <li>
+                <a href="login/login.html"><img class="verhaal" src="images/PR.jpg" alt="Verhaal 1"></a>
+                </li>
+            
+                <li><a href="login/login.html"><img class="verhaal" src="images/PR.jpg" alt="Verhaal 1"></a>
+                </li>
+
+                <li><a href="login/login.html"><img class="verhaal" src="images/PR.jpg" alt="Verhaal 1"></a>
+                </li>
+                
+                <li><a href="login/login.html"><img class="verhaal" src="images/PR.jpg" alt="Verhaal 1"></a></li>
+                <!-- <h3>Titel 1</h3> -->
+               
+            
+                <li><a href="login/login.html"><img class="verhaal" src="images/PR.jpg" alt="Verhaal 1"></a>
+                </li>
+
+                <li><a href="login/login.html"><img class="verhaal" src="images/PR.jpg" alt="Verhaal 1"></a>
+                </li>
+            </ul>
+            
+            <h2>99 Verhalen van NS</h2>
+            <!--
             <h2>Titel 1</h2>
             <img class="addtofav" src="images/favorites.png" alt="Favorite">
             <img class="leeg" src="images/like.png" alt="Like knop">
 
-            <img class="verhaal" src="images/verhaal2" alt="Verhaal 2">
+            <img class="verhaal" src="images/PR.jpg" alt="Verhaal 2">
             <h2>Titel 2</h2>
             <img class="addtofav" src="images/favorites.png" alt="Favorite">
             <img class="leeg" src="images/like.png" alt="Like knop">
+            
+            <img class="verhaal" src="images/PR.jpg" alt="Verhaal 2">
+            <h2>Titel 2</h2>
+            <img class="addtofav" src="images/favorites.png" alt="Favorite">
+            <img class="leeg" src="images/like.png" alt="Like knop">
+            -->
         </section>
 
     </main>
