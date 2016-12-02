@@ -93,6 +93,8 @@ header > h2 {
     display: none;
 }
 
+
+
 /* Class styles */
 
 .banner {
@@ -105,18 +107,6 @@ header > h2 {
     display: none;
 }
 
-.overlay {
-    position: relative;
-    background-color: rgba(42,66,113,0.86);
-    padding: 0.8em;
-    width: 26%;
-    height: auto;
-    font-size: 0.9em;
-    left: 0.5em;
-    bottom: 4em;
-}
-
-
 .filter {
     display: none; 
 }
@@ -126,9 +116,15 @@ header > h2 {
 }
 
 
-
-.favorites {
-  
+.overlay {
+    position: relative;
+    background-color: rgba(42,66,113,0.86);
+    padding: 0.8em;
+    width: 26%;
+    height: auto;
+    font-size: 0.9em;
+    left: 0.5em;
+    bottom: 4em;
 }
 
 .mid {
@@ -250,7 +246,7 @@ section button {
 
 
 
-@media screen and (min-width: 890px) {
+@media screen and (min-width: 1200px) {
     .banner {
         display: none;
     }
