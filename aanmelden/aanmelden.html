@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <!--320-->
+    <title>NS Travelling Stories</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <!--    <link rel="icon" href="images/website-icon.png" /> -->
+    <link href="../fonts/css/fonts.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+    <header>
+
+        <h1>NS</h1>
+        <h2>Travelling Stories</h2>
+        <img class="nslogo" src="images/nslogo.png" alt="NS logo">
+        <form id="search-form" name="search" action="/products" method="get">
+            <input id="search-input" name="search" type="text">
+            <input src="images/" name="submit" type="image" alt="Zoekbar">
+        </form>
+        <a href="favorites/favorites.html"><img class="favorites" src="images/favorites.png" alt="Favorieten knop"></a>
+        <a href="login/login.html"><img class="mijnns" src="images/mijnns.png" alt="Mijn NS knop"></a>
+
+    </header>
+
+    <form action="Post">
+
+        <fieldset>
+            <legend>Algemeen</legend>
+            <label>
+                <span>Volledige Naam:</span>
+                <input type="text" name="naam">
+                 <span>Adres + Nummer:</span>
+                <input type="text" name="nummer">
+                 <span>Postcode:</span>
+                <input type="text" name="nummer">
+                 <span>Stad:</span>
+                <input type="text" name="nummer">
+                 <span>Provincie:</span>
+                <input type="text" name="nummer">
+                 <span>Mobiel Nummer</span>
+                <input type="text" name="nummer">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Inloggevens</legend>
+            <label>
+                <span>E-mailadres</span>
+                <input type="email" name="emailadres" required>
+            </label>
+            <label>
+                <span>Bevestig e-mailadres</span>
+                <input type="email" name="bevestig emailadres" required>
+            </label>
+            <label>
+                <span>Wachtwoord</span>
+                <input type="password" name="wachtwoord" required>
+            </label>
+            <label>
+                <span>Bevestig wachtwoord</span>
+                <input type="password" name="bevestig wachtwoord" required>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Gebruikersvoorwaarden</legend>
+            <input type="checkbox" name="gebruikersvoorwaarden" required>
+            <span>Ik ga akkoord met de <a href="#">gebruikersvoorwaarden</a>.</span>
+        </fieldset>
+
+        <a href="../login/login.html">Annuleren</a>
+        <input type="submit" value="aanmelden">
+
+    </form>

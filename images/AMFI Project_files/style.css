@@ -1,0 +1,67 @@
+body, html{ 
+	padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+	background-color: #FFFFFF;
+	font-family: sans-serif;
+}
+
+.header{
+	text-align: center;
+}
+.header img{
+	max-width: 45%;
+	max-height: auto;
+    margin: 3.5em;
+}
+.blokschema {
+ margin: 0 auto;
+ text-align: center;
+ width: 80%;
+ padding-bottom: 50px;
+ padding-top: 50px;
+ background-color: rgba(255,100,255,0.1);
+ margin-bottom: 3.5em;
+ margin-top: -1.5em
+}
+.blokschema a img:hover{
+	transform: scale(1.1);
+	box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+}
+.blokschema a img{
+		transition: all .3s ease;
+		width: 190px;
+		height: 175px;
+		box-shadow: 0 0px 3px rgba(0, 0, 0, 0.1), 0 0 5px rgba(128, 128, 128, 0.1) inset;
+		margin: 3px;
+        background-color: white;
+        object-fit: contain;
+}
+
+footer{
+	background-color: rgba(255,100,255,0.1);
+	padding: 15px;
+	text-align:center;
+}
+
+footer a{
+  color: black;
+  text-decoration: none;
+  transition: all .3s ease;
+  font-size: 0.8em;
+  padding: 0.5em 3em;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
+  background-color: white;
+  transition: all .6s ease;
+  font-family: dolcevita;
+}
+footer a:hover{
+	color: rgba(255,100,255,0.4);
+    transform: scale(1.1);
+}
+
+@font-face {
+    font-family: dolcevita;
+    src: url(Dolce Vita Light.ttf);
+}

@@ -1,0 +1,316 @@
+/* Generic styles */
+
+* {
+    font-family: ns-sans;
+    padding: 0;
+    margin: 0;
+    line-height: 150%;
+}
+
+body {
+    xbackground-color: #FDC812;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    height: 3em;
+    background-color: #FFFFFF;
+    margin-top: -3em;
+}
+
+
+h1 {
+    color: #FFFFFF;
+    display: flex;
+}
+
+
+
+
+/* Header styles */
+
+header > img {
+    width: 4em;
+    height: auto;
+    justify-content: center;
+}
+
+header + h1:first-child {
+    width: 2em;    
+}
+header form {
+    display:none;
+}
+
+header > a:first-of-type {
+    margin-right:auto;
+    height: 3em;
+    margin-top: 0;
+}
+header > a {
+    xbackground-color: lightblue;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+    height: 2em;
+    transition: all .6s ease;
+}
+header > a:hover {
+    transform: scale(1.1);
+}
+
+header > a img {
+    height: 100%;
+}
+
+header button img {
+    height: 2.5em;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+header button {
+    background: none;
+    xbackground-color: lightblue;
+    padding: 0;
+    border: none;
+}
+
+header > h2 {
+    display: none;
+}
+
+
+
+/* Block lay-out */
+
+fieldset {
+    background-color: #2A4271;
+    padding: 2em;
+    margin-top: 3em;
+    max-width: 80%;
+    display: flex;
+    margin: 3em
+}
+
+legend {
+    width: 100%;
+    background-color: #DBDBDB;
+    padding: 1em;
+    margin: 
+    
+}
+
+fieldset > h3 {
+    margin-bottom: 1em;
+}
+
+fieldset > a {
+    display: flex;
+    margin-top: 1em;
+    background-color: #FDC812;
+    padding-left: 0.4em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    text-decoration: none;
+    color: #2A4271;
+    justify-content: center;
+}
+
+fieldset > p {
+    margin-bottom: 1em;
+    margin-top: -0.8em;
+    font-size: 0.6em;
+}
+
+
+------------
+
+    
+form {
+  display:flex;
+  flex-direction:column;
+  transition: all .5s;
+  padding:1em;
+}
+
+fieldset {
+  display:flex;
+  margin-bottom: 4em;
+  border:none;
+  transition: all .2s;
+  padding:1.5em;
+  background-color: #2A4271;
+  margin-top: 3em;
+  max-width: 80%;
+  color: white;
+  margin-top: 
+}
+
+fieldset:invalid {
+  background-color: #2A4271;
+}
+
+fieldset:valid {
+    xbackground-color: yellow;
+}
+
+form fieldset:nth-child(2) {
+  background-color: #2A4271; 
+}
+input {
+ 
+  padding:.3em;
+  font-size: 1.25em;
+  margin-bottom: 1em;
+  margin-right: em;
+  width:93%;
+  transition:all .2s;
+  z-index:2;
+}
+input:valid {
+  border-color:greenyellow;
+} 
+
+input:focus {
+  transform: scale(1.03, 1.03);
+}
+
+
+fieldset button {
+  font-size: 1.25em;
+  flex:0 0 2em;
+  padding: 0 40%;
+  transition:all .2s;
+  background-color: #FDC812;
+  border: none;
+  color: #2A4271;
+    
+  
+}
+button:focus {
+  transform: scale(1.1, 1.1);
+}
+
+    
+
+
+
+
+
+-----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+    header {
+        display: flex;
+        transition: opacity 2s ease-in;
+    }
+    
+    header > a:first-of-type {
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 50%;
+    }
+    header > h2 {
+        display: flex;
+        font-size: 1em;
+        align-items: center;
+        color: #2A4271;
+        margin-right: 1em;
+    }
+        fieldset {
+    padding: 3em;
+    max-width: 70em;
+    justify-content: center;
+    display: flex
+}
+
+    form {
+        display: flex;
+        margin-top: 3em;
+        justify-content: space-around;
+        max-width: 70em
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .banner {
+        display: none;
+    }
+
+    .bannerdesktop {
+        display: block;
+        width: 100%;
+        min-height: 100%;
+        max-height: 20em;
+    }
+    
+    .verhaal {
+    width: 23em;
+    min-height: 100%;
+    max-height: 13em;
+    margin-left: 5em;
+    }
+    
+    ul li:first-child {
+    margin-left: 10em;
+    }
+    
+    #deur {
+        display: none;
+        width: 8em;
+        height: 20em;
+        padding-top:
+    }
+    
+    fieldset {
+    padding: 6;
+    justify-content: center;;
+    display: flex
+}
+
+    form {
+        display: flex;
+        margin-top: 3em;
+        justify-content: space-around;
+    }
+    form fieldset:nth-child(2) {
+      background-color: #FDC812; 
+}
+ 
+    fieldset > a {
+    background-color: #2A4271;
+    color: #Ffffff;
+}
+    fieldset > h5 {
+        color: #2A4271;
+    }
+    fieldset:nth-child(2) > h3 {
+        color: #2A4271;
+    }
+
+
+
